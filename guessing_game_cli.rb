@@ -8,7 +8,7 @@ end
 
 def generate_number
   #rand(6) + 1
-  return 2
+  return 1
 end
 
 def prompt_user
