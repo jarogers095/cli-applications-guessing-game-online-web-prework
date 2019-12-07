@@ -11,7 +11,7 @@ def generate_number
 end
 
 def prompt_user
-  "Guess a number between 1 and 6: "
+  puts "Guess a number between 1 and 6: "
 end
 
 def capture_input
