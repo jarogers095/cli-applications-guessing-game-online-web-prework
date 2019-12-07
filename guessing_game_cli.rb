@@ -20,9 +20,9 @@ def capture_input
 end
 
 def output_results(choice, number)
-  elsif (choice == "exit")
+  if (choice == "exit")
     puts "Goodbye!"
-  if (Integer(choice) == number)
+  elsif (Integer(choice) == number)
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{number}."
