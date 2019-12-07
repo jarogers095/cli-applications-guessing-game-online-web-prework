@@ -2,8 +2,8 @@
 def run_guessing_game
   the_number = generate_number
   prompt_user
-  choice = capture_input
-  output_results(choice, the_number)
+  user_choice = capture_input
+  output_results(user_choice, the_number)
 end
 
 def generate_number
@@ -19,7 +19,6 @@ def capture_input
 end
 
 def output_results(choice, number)
-  puts "#{choice} AND! #{number}"
   if (choice == number)
     puts "You guessed the correct number!"
   elsif (choice == "exit")
