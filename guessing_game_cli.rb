@@ -3,7 +3,7 @@ def run_guessing_game
   the_number = generate_number
   prompt_user
   choice = capture_input
-  puts "!!!!!!!!!!!!!!!!!!#{choice}"
+  puts "#{choice} AND! #{the_number}"
   output_results(choice, the_number)
 end
 
