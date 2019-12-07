@@ -19,7 +19,7 @@ def capture_input
 end
 
 def output_results(choice, number)
-  if (choice == 2)
+  if (2 == number)
     puts "You guessed the correct number!"
   elsif (choice == "exit")
     puts "Goodbye!"
