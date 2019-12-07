@@ -7,8 +7,7 @@ def run_guessing_game
 end
 
 def generate_number
-  #rand(6) + 1
-  return 6
+  rand(1..6)
 end
 
 def prompt_user
@@ -16,7 +15,7 @@ def prompt_user
 end
 
 def capture_input
-  gets.chomp
+  gets.chomp.parse
 end
 
 def output_results(choice, number)
