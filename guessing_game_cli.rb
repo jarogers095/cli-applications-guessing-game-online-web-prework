@@ -15,11 +15,11 @@ def prompt_user
 end
 
 def capture_input
-  Integer(gets.chomp)
+  gets.chomp
 end
 
 def output_results(choice, number)
-  if (choice == number)
+  if (Integer(choice) == number)
     puts "You guessed the correct number!"
   elsif (choice == "exit")
     puts "Goodbye!"
