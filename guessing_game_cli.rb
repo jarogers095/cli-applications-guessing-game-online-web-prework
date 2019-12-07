@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def capture_input
-  gets.chomp.parse
+  Integer(gets.chomp)
 end
 
 def output_results(choice, number)
