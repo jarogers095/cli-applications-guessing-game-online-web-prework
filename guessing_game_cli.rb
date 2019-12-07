@@ -24,6 +24,6 @@ def output_results(choice, number)
   elsif (choice == "exit")
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{number}"
+    puts "Sorry! The computer guessed #{number}."
   end
 end
